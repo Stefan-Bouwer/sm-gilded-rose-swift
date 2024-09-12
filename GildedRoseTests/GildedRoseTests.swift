@@ -1,6 +1,7 @@
 import XCTest
 @testable import GildedRose
 
+@available(iOS 17, macOS 13.0, *)
 class GildedRoseTests: XCTestCase {
     // MARK: Normal Items
     
