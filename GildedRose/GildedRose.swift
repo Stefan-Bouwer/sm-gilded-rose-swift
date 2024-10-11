@@ -1,4 +1,8 @@
 public class GildedRose {
+    public static func sessionIsValid(_ validity: Bool) -> Bool {
+        return validity
+    }
+    
     public static func updateQuality(_ items: Array<Item>) -> [Item] {
         var items = items
         for i in 0 ..< items.count {
