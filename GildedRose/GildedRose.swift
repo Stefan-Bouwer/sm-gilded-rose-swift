@@ -1,3 +1,5 @@
+import Foundation
+
 public class GildedRose {
     public static func sessionIsValid(_ validity: Bool) -> Bool {
         return validity
